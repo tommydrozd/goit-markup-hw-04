@@ -31,6 +31,8 @@ body {
   background-color: var(--color-white);
   border-bottom: 1px solid var(--border-bottom-color);
   margin: 0 auto;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-div {
@@ -208,8 +210,17 @@ button:hover {
   color: var(--logo-studio);
 }
 .main-index-section-first {
-  background-color: var(--background-color1);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   padding: 188px 0;
+  margin: auto;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .index-section-first-header {
   max-width: 496px;
@@ -387,4 +398,36 @@ button:hover {
   padding: 32px 16px;
   border: 1px solid var(--border-bottom-color);
   border-top: none;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.values > li {
+  width: calc(25% - 24px);
+}
+
+.icon-wrapper {
+  background-color: var(--background-color2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icon-wrapper > svg {
+  display: block;
+  width: 64;
+  height: auto;
+  margin: auto;
+}
+
+svg {
+  width: 64px;
+  height: 64px;
 }
