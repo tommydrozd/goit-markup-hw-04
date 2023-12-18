@@ -423,11 +423,11 @@ button:hover {
 .icon-wrapper > svg {
   display: block;
   width: 64;
-  height: auto;
+
   margin: auto;
 }
 
-svg {
+.svg {
   width: 64px;
   height: 64px;
 }
