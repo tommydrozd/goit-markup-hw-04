@@ -427,9 +427,8 @@ button:hover {
 }
 
 svg {
-  width: 64px; height: 64px;
-  margin-left: 12px;
-  margin-top: 48px;
+  width: 16px;
+   height: 16px;
 }
 
 .img-team-shadow {
