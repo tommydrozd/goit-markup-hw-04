@@ -444,6 +444,7 @@ svg {
 }
 
 .social-icon-svg {
+  
  }
 
 .a-social {
@@ -458,6 +459,3 @@ svg {
   height: 40px;
 }
 
-
-:hover background-color: #404bbf;
- :focus background-color: #404bbf;
