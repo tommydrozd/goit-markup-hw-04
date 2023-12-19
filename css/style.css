@@ -423,12 +423,13 @@ button:hover {
 .icon-wrapper > svg {
   display: block;
   width: 64;
-
-  margin: auto;
+  margin:auto;
 }
 
 svg {
   width: 64px; height: 64px;
+  margin-left: 12px;
+  margin-top: 48px;
 }
 
 .img-team-shadow {
@@ -440,7 +441,9 @@ svg {
   display: flex;
   list-style-type: none;
   justify-content: center;
+  align-items: center;
   gap: 24px;
+
 }
 
 .social-icon-svg {
@@ -457,5 +460,13 @@ svg {
   justify-content: center;
   width: 40px;
   height: 40px;
+}
+
+.a-social:hover {
+  background-color: #404bbf; 
+}
+
+.a-social:focus {
+  background-color: #404bbf; 
 }
 
