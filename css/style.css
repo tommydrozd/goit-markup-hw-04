@@ -288,6 +288,10 @@ button:hover {
   background-color: var(--background-color1);
 }
 
+.div-foot-whole {
+  display: flex; 
+  align-items: baseline;
+}
 .footer-p {
   line-height: 1.5;
   color: var(--background-color2);
@@ -302,8 +306,7 @@ button:hover {
 }
 
 .footer-social {
-  display: flex;
-  align-items: baseline;
+
 }
 
 .logo-p {
