@@ -428,8 +428,7 @@ button:hover {
 }
 
 svg {
-  width: 64px;
-  height: 64px;
+  width: 64px; height: 64px;
 }
 
 .img-team-shadow {
@@ -439,21 +438,21 @@ svg {
 
 .social-svg {
   display: flex;
+  list-style-type: none;
   justify-content: center;
   gap: 24px;
 }
 
 .social-icon-svg {
-  width: 40px;
-  height: 40px;
-}
+ }
 
 .a-social {
-  width: 100%;
-  height: 100%;
+ 
   background-color: var(--second-color-text);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
 }
