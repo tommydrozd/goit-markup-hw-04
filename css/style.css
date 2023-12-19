@@ -14,6 +14,7 @@
   --background-color2: #f4f4fd;
   --bg-color: #ffffff;
   --border-bottom-color: #e7e9fc;
+  --customer-logo: #8e8f99;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -427,8 +428,8 @@ button:hover {
 }
 
 svg {
-  width: 16px;
-   height: 16px;
+   width: 64px;
+   height: 64px;
    fill: var(--background-color2);
   }
 
@@ -443,11 +444,11 @@ svg {
   justify-content: center;
   align-items: center;
   gap: 24px;
-
 }
 
 .social-icon-svg {
-  
+  width: 16px;
+  height: 16px;
  }
 
 .a-social {
@@ -470,3 +471,51 @@ svg {
   background-color: #404bbf; 
 }
 
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title{
+  font-size: 36px;
+  line-height: 1.11;
+  color:var(--background-color1);
+  margin-bottom: 72px;
+}
+
+.customers-list{
+  display: flex; gap: 24px;
+}
+
+.customer-logo-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customer-logo {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--customer-logo);
+}
+
+.customer-logo:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.customer-logo:focus {
+  border-color: #404bbf;
+  color: #404bbf; 
+}
+
+.svg-customer-logo {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
+
+.logo-list {}
