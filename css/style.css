@@ -428,8 +428,7 @@ button:hover {
 }
 
 svg {
-   width: 64px;
-   height: 64px;
+
    fill: var(--background-color2);
   }
 
