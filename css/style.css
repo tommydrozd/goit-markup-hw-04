@@ -525,10 +525,7 @@ svg {
   gap: 24px;
 }
 
-.social-icon-svg {
-  width: 16px;
-  height: 16px;
- }
+
 
 .a-social {
   width: 100%;
@@ -537,7 +534,9 @@ svg {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;}
+
+.asocial {  
   width: 40px;
   height: 40px;
 }
