@@ -304,7 +304,6 @@ button:hover {
 .div-foot-whole {
   display: flex; 
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-p {
   line-height: 1.5;
