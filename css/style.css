@@ -190,6 +190,8 @@ button:hover {
   color: var(--logo-studio);
 }
 
+.pxtest {}
+
 .link-block {
   display: block;
 }
@@ -507,8 +509,7 @@ button:hover {
   margin:auto;
 }
 
-svg {
-
+.svg {
    fill: var(--background-color2);
   }
 
