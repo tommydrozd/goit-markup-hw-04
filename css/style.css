@@ -296,6 +296,7 @@ button:hover {
 .div-foot-whole {
   display: flex; 
   align-items: baseline;
+  margin-right: 120px;
 }
 .footer-p {
   line-height: 1.5;
@@ -307,7 +308,7 @@ button:hover {
 .footer-portfolio {
   background-color: var(--background-color1);
   padding: 100px 0;
-
+ 
 }
 
 .footer-social {
@@ -315,7 +316,6 @@ button:hover {
 }
 
 .logo-p {
-  margin-right: 120px;
 }
 
 .footer-social-p {
