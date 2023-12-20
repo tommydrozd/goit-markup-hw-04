@@ -534,9 +534,7 @@ svg {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;}
-
-.asocial {  
+  justify-content: center; 
   width: 40px;
   height: 40px;
 }
