@@ -43,7 +43,7 @@ ul, ol { list-style: none; margin: 0; padding-left: 0; }
 
 .header-div {
   display: flex;
-  height: 72px;
+  justify-content: space-between;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
   padding-bottom: 48px;
 }
 .div-nav-address {
-  gap: 332px;
+  display: flex;
 }
 .address {
   font-style: normal;
@@ -284,6 +284,7 @@ button:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  color: var(--background-color1);
 }
 
 .sfour-padding {
@@ -591,6 +592,10 @@ button:hover {
 
 .svg-customer-logo {
   fill: currentColor;
+}
+
+.customer-logo:hover{
+  fill: var(--ocean);
 }
 
 .logo-list {}
