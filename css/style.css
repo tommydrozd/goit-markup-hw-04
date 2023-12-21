@@ -595,7 +595,7 @@ button:hover {
 }
 
 .customer-logo:hover{
-  fill: var(--ocean);
+  fill: currentColor;
 }
 
 .logo-list {}
